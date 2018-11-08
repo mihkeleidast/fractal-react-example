@@ -1,0 +1,26 @@
+/* GRID */
+
+$grid-columns: 12;
+
+$grid-gutter: 20px;
+
+/* BREAKPOINTS */
+
+$bp-xs-min: 480px;
+$bp-sm-min: 768px;
+$bp-md-min: 1024px;
+$bp-lg-min: 1170px;
+
+/* TYPOGRAPHY */
+
+$font-family-base: 'Helvetica Neue', Helvetica, sans-serif;
+
+/* TRANSITIONS */
+
+$transition-duration: 300ms;
+$transition-easing: ease-in-out;
+
+/* COLORS */
+
+$color-black: #000000;
+$color-error: #ff0000;

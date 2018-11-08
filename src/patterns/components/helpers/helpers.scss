@@ -1,0 +1,55 @@
+body {
+    &.is-scroll-disabled {
+        overflow-y: scroll;
+        position: fixed;
+        width: 100%;
+    }
+}
+
+.h-clearfix {
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+.h-pull-left {
+    float: left;
+}
+
+.h-pull-right {
+    float: right;
+}
+
+.h-hidden {
+    display: none !important;
+}
+
+.h-visible {
+    display: block !important;
+}
+
+.h-hidden-xs {
+    @media only screen and (max-width: $bp-sm-min - 1) {
+        display: none !important;
+    }
+}
+
+.h-hidden-sm {
+    @media only screen and (min-width: $bp-sm-min) and (max-width: $bp-md-min - 1) {
+        display: none !important;
+    }
+}
+
+.h-hidden-md {
+    @media only screen and (min-width: $bp-md-min) and (max-width: $bp-lg-min - 1) {
+        display: none !important;
+    }
+}
+
+.h-hidden-lg {
+    @media only screen and (min-width: $bp-lg-min) {
+        display: none !important;
+    }
+}

@@ -1,0 +1,93 @@
+.textfield {
+    position: relative;
+    font-size: 16px;
+    width: 100%;
+    max-width: 100%;
+
+    &.is-disabled {
+        opacity: .5;
+    }
+}
+
+.textfield__inner {
+    position: relative;
+    padding: 14px 0 0;
+}
+
+.textfield__input {
+    border: none;
+    border-bottom: 1px solid $color-black;
+    border-radius: 0;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    height: 32px;
+    width: 100%;
+    background: none;
+    text-align: left;
+    color: inherit;
+    appearance: none;
+
+    .textfield.is-focused & {
+        outline: none;
+        border-color: $color-black;
+    }
+
+    .textfield.is-invalid & {
+        border-color: $color-error;
+    }
+
+    .textfield.is-disabled & {
+        background-color: transparent;
+        outline: none;
+    }
+
+    &::-ms-clear {
+        display: none;
+    }
+}
+
+.textfield__label {
+    bottom: 0;
+    color: $color-black;
+    font-size: 16px;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    top: 16px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+    text-overflow: ellipsis;
+
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+
+    html.no-js &,
+    .textfield.is-focused &,
+    .textfield.is-dirty & {
+        font-size: 12px;
+        top: 0;
+    }
+
+    .textfield.is-focused & {
+        color: $color-black;
+    }
+
+    .textfield.is-invalid & {
+        color: $color-error;
+    }
+}
+
+.textfield__error {
+    margin-top: 5px;
+    color: $color-error;
+}
+
+.textfield__description {
+    margin-top: 5px;
+}

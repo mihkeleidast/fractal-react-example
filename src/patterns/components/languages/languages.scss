@@ -1,0 +1,10 @@
+.languages__item {
+    display: inline-block;
+    padding: 5px;
+}
+
+.languages__link {
+    .languages__item.is-current > & {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "context": {
+    "navigation": "@navigation",
+    "languages": "@languages"
+  }
+}

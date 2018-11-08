@@ -1,0 +1,82 @@
+.select {
+    position: relative;
+    font-size: 16px;
+    width: 100%;
+    max-width: 100%;
+
+    &.is-disabled {
+        opacity: .5;
+    }
+}
+
+.select__inner {
+    position: relative;
+    padding: 14px 0 0;
+}
+
+.select__input {
+    border: none;
+    border-bottom: 1px solid $color-black;
+    border-radius: 0;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    height: 32px;
+    width: 100%;
+    background: none;
+    text-align: left;
+    color: inherit;
+    appearance: none;
+    padding-right: 34px;
+
+    .select.is-invalid & {
+        border-color: $color-error;
+    }
+
+    .select.is-disabled & {
+        background-color: transparent;
+        outline: none;
+    }
+
+    &::-ms-clear {
+        display: none;
+    }
+}
+
+.select__icon {
+    position: absolute;
+    top: 24px;
+    right: 10px;
+    font-size: 14px;
+}
+
+.select__label {
+    bottom: 0;
+    color: $color-black;
+    font-size: 12px;
+    top: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+    text-overflow: ellipsis;
+
+    .select.is-invalid & {
+        color: $color-error;
+    }
+}
+
+.select__error {
+    margin-top: 5px;
+    color: $color-error;
+}
+
+.select__description {
+    margin-top: 5px;
+}

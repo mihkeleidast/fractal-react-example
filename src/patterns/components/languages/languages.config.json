@@ -1,0 +1,19 @@
+{
+  "context": {
+    "items": [
+      {
+        "url": "#",
+        "label": "est"
+      },
+      {
+        "url": "#",
+        "label": "eng",
+        "current": "true"
+      },
+      {
+        "url": "#",
+        "label": "rus"
+      }
+    ]
+  }
+}

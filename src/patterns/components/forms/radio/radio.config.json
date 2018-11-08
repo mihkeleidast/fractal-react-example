@@ -1,0 +1,29 @@
+{
+  "context": {
+    "label": "Radio label",
+    "id": "radio",
+    "name": "radio",
+    "value": "radio-value"
+  },
+  "variants": [
+    {
+      "name": "disabled",
+      "context": {
+        "disabled": true
+      }
+    },
+    {
+      "name": "checked",
+      "context": {
+        "checked": true
+      }
+    },
+    {
+      "name": "checked-disabled",
+      "context": {
+        "checked": true,
+        "disabled": true
+      }
+    }
+  ]
+}

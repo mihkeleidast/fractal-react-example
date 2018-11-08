@@ -1,0 +1,63 @@
+{
+  "name": "fractal-react-example",
+  "version": "0.0.0",
+  "description": "An example project using Fractal and React (and TypeScript)",
+  "main": "index.js",
+  "scripts": {
+    "predev": "rimraf app",
+    "dev": "webpack --env.styleguide",
+    "prebuild": "rimraf app",
+    "build": "webpack -p --env.production --env.styleguide"
+  },
+  "author": "gotoAndPlay <info@play.ee> (https://play.ee)",
+  "license": "MIT",
+  "devDependencies": {
+    "@frctl/fractal": "^1.1.7",
+    "@gotoandplay/fractal-module-resolver-webpack-plugin": "^0.1.0",
+    "@gotoandplay/fractal-tsx-adapter": "^0.3.0",
+    "@gotoandplay/nighthawk": "^1.3.1",
+    "autoprefixer": "^9.3.1",
+    "css-loader": "^1.0.0",
+    "expose-loader": "^0.7.5",
+    "external-svg-sprite-loader": "^4.0.0-beta.7",
+    "file-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.9.4",
+    "postcss-loader": "^3.0.0",
+    "resolve-url-loader": "^3.0.0",
+    "rimraf": "^2.6.2",
+    "sass-loader": "^7.1.0",
+    "sass-resources-loader": "^1.3.4",
+    "style-loader": "^0.23.1",
+    "stylelint": "^8.4.0",
+    "stylelint-webpack-plugin": "^0.10.5",
+    "svgo": "^1.1.1",
+    "svgo-loader": "^2.2.0",
+    "ts-loader": "^5.2.2",
+    "tslint": "^5.11.0",
+    "tslint-loader": "^3.5.4",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.1.3",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "fractal": {
+    "main": "fractal.config.js"
+  },
+  "dependencies": {
+    "@types/classnames": "^2.2.6",
+    "@types/node": "^10.12.0",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "@types/webpack": "^4.4.17",
+    "@types/webpack-env": "^1.13.6",
+    "classnames": "^2.2.6",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "svgxuse": "^1.2.6"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 11"
+  ]
+}

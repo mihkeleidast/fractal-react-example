@@ -1,0 +1,37 @@
+{
+  "context": {
+    "label": "Select label",
+    "id": "select1",
+    "value": "2",
+    "options": [
+      {
+        "label": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis error velit quidem alias nihil mollitia temporibus, maxime dicta repellat. Perspiciatis veniam doloribus, quia corporis commodi sed omnis adipisci facilis nisi.",
+        "value": "1"
+      },
+      {
+        "label": "Option 2",
+        "value": "2"
+      },
+      {
+        "label": "Option 3",
+        "value": "3"
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "invalid",
+      "context": {
+        "invalid": true,
+        "error": "Please check your input"
+      }
+    },
+    {
+      "name": "disabled",
+      "context": {
+        "disabled": true,
+        "value": "3"
+      }
+    }
+  ]
+}

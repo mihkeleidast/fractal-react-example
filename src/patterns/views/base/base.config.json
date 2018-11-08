@@ -1,0 +1,6 @@
+{
+  "context": {
+    "header": "@m-header",
+    "children": "any content"
+  }
+}

@@ -1,0 +1,50 @@
+@mixin bp($point) {
+    @if $point == xs-min {
+        @media only screen and (min-width: #{$bp-xs-min}) {
+            @content;
+        }
+    }
+    @elseif $point == sm-min {
+        @media only screen and (min-width: #{$bp-sm-min}) {
+            @content;
+        }
+    }
+    @elseif $point == md-min {
+        @media only screen and (min-width: #{$bp-md-min}) {
+            @content;
+        }
+    }
+    @elseif $point == lg-min {
+        @media only screen and (min-width: #{$bp-lg-min}) {
+            @content;
+        }
+    }
+}
+
+@mixin clearfix {
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin aspect-ratio($width, $height, $element) {
+    position: relative;
+
+    &:before {
+        display: block;
+        content: '';
+        width: 100%;
+        padding-top: ($height / $width) * 100%;
+    }
+
+    > .#{$element} {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+}

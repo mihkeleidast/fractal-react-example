@@ -1,0 +1,27 @@
+{
+  "collated": true,
+  "variants": [
+    {
+      "name": "default",
+      "hidden": true
+    },
+    {
+      "name": "arrow-down",
+      "context": {
+        "name": "arrow-down"
+      }
+    },
+    {
+      "name": "menu",
+      "context": {
+        "name": "menu"
+      }
+    },
+    {
+      "name": "check",
+      "context": {
+        "name": "check"
+      }
+    }
+  ]
+}

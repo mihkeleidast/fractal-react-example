@@ -1,0 +1,18 @@
+.choice-group__label {
+    margin-bottom: 5px;
+}
+
+.choice-group__item {
+    & + & {
+        margin-top: 5px;
+    }
+}
+
+.choice-group__error {
+    margin-top: 5px;
+    color: $color-error;
+}
+
+.choice-group__description {
+    margin-top: 5px;
+}

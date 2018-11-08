@@ -1,0 +1,19 @@
+{
+  "context": {
+    "items": [
+      {
+        "url": "#",
+        "label": "Item 1"
+      },
+      {
+        "url": "#",
+        "label": "Item 2",
+        "current": "true"
+      },
+      {
+        "url": "#",
+        "label": "Item 3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+.header {
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid $color-black;
+}
+
+.header__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

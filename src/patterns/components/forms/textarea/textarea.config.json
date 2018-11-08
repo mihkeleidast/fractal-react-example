@@ -1,0 +1,24 @@
+{
+  "context": {
+    "label": "Textarea label",
+    "id": "text1",
+    "name": "textarea"
+  },
+  "variants": [
+    {
+      "name": "invalid",
+      "context": {
+        "invalid": true,
+        "error": "Please check your input",
+        "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eos blanditiis quibusdam cum suscipit hic aspernatur, sequi consequuntur illum voluptatem sint perspiciatis, modi, odit nostrum recusandae reprehenderit veniam nesciunt architecto!"
+      }
+    },
+    {
+      "name": "disabled",
+      "context": {
+        "disabled": true,
+        "value": "Tere"
+      }
+    }
+  ]
+}

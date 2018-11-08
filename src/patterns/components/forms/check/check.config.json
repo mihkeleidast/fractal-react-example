@@ -1,0 +1,29 @@
+{
+  "context": {
+    "label": "Checkbox label",
+    "id": "check1",
+    "name": "check",
+    "value": "on"
+  },
+  "variants": [
+    {
+      "name": "disabled",
+      "context": {
+        "disabled": true
+      }
+    },
+    {
+      "name": "checked",
+      "context": {
+        "checked": true
+      }
+    },
+    {
+      "name": "checked-disabled",
+      "context": {
+        "checked": true,
+        "disabled": true
+      }
+    }
+  ]
+}

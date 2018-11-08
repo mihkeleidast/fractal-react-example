@@ -1,0 +1,24 @@
+{
+  "context": {
+    "label": "Textfield label",
+    "id": "text1",
+    "name": "textfield"
+  },
+  "variants": [
+    {
+      "name": "invalid",
+      "context": {
+        "invalid": true,
+        "error": "Please check your input",
+        "value": "info2play.ee"
+      }
+    },
+    {
+      "name": "disabled",
+      "context": {
+        "disabled": true,
+        "value": "Tere"
+      }
+    }
+  ]
+}

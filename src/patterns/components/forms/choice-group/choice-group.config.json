@@ -1,0 +1,47 @@
+{
+  "context": {
+    "label": "Choice group label",
+    "type": "check",
+    "choices": [
+      {
+        "id": "check1",
+        "label": "Option 1",
+        "name": "check",
+        "value": "option-1"
+      },
+      {
+        "id": "check2",
+        "label": "Option 2",
+        "name": "check",
+        "value": "option-2"
+      },
+      {
+        "id": "check3",
+        "label": "Option 3",
+        "name": "check",
+        "value": "option-3"
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "radio",
+      "context": {
+        "type": "radio"
+      }
+    },
+    {
+      "name": "invalid",
+      "context": {
+        "invalid": true,
+        "error": "Please check your input"
+      }
+    },
+    {
+      "name": "description",
+      "context": {
+        "description": "This text should help you check the correct option"
+      }
+    }
+  ]
+}

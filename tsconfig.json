@@ -1,0 +1,155 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "es5",
+      "es2015",
+      "es2017"
+    ],
+    "target": "es5",
+    "strict": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "removeComments": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "baseUrl": "./src/patterns",
+    "paths": {
+      "@button": [
+        "components/button/button"
+      ],
+      "@button--anchor-button": [
+        "components/button/button"
+      ],
+      "@container": [
+        "components/container/container"
+      ],
+      "@check": [
+        "components/forms/check/check"
+      ],
+      "@check--disabled": [
+        "components/forms/check/check"
+      ],
+      "@check--checked": [
+        "components/forms/check/check"
+      ],
+      "@check--checked-disabled": [
+        "components/forms/check/check"
+      ],
+      "@choice-group": [
+        "components/forms/choice-group/choice-group"
+      ],
+      "@choice-group--radio": [
+        "components/forms/choice-group/choice-group"
+      ],
+      "@choice-group--invalid": [
+        "components/forms/choice-group/choice-group"
+      ],
+      "@choice-group--description": [
+        "components/forms/choice-group/choice-group"
+      ],
+      "@radio": [
+        "components/forms/radio/radio"
+      ],
+      "@radio--disabled": [
+        "components/forms/radio/radio"
+      ],
+      "@radio--checked": [
+        "components/forms/radio/radio"
+      ],
+      "@radio--checked-disabled": [
+        "components/forms/radio/radio"
+      ],
+      "@select": [
+        "components/forms/select/select"
+      ],
+      "@select--invalid": [
+        "components/forms/select/select"
+      ],
+      "@select--disabled": [
+        "components/forms/select/select"
+      ],
+      "@textarea": [
+        "components/forms/textarea/textarea"
+      ],
+      "@textarea--invalid": [
+        "components/forms/textarea/textarea"
+      ],
+      "@textarea--disabled": [
+        "components/forms/textarea/textarea"
+      ],
+      "@textfield": [
+        "components/forms/textfield/textfield"
+      ],
+      "@textfield--invalid": [
+        "components/forms/textfield/textfield"
+      ],
+      "@textfield--disabled": [
+        "components/forms/textfield/textfield"
+      ],
+      "@helpers": [
+        "components/helpers/helpers"
+      ],
+      "@icon": [
+        "components/icon/icon"
+      ],
+      "@icon--arrow-down": [
+        "components/icon/icon"
+      ],
+      "@icon--menu": [
+        "components/icon/icon"
+      ],
+      "@icon--check": [
+        "components/icon/icon"
+      ],
+      "@languages": [
+        "components/languages/languages"
+      ],
+      "@main": [
+        "components/main/main"
+      ],
+      "@navigation": [
+        "components/navigation/navigation"
+      ],
+      "@reset": [
+        "components/reset/reset"
+      ],
+      "@typography": [
+        "components/typography/typography"
+      ],
+      "@typography--example": [
+        "components/typography/typography--example"
+      ],
+      "@preview": [
+        "core/preview/preview"
+      ],
+      "@m-header": [
+        "modules/header/header"
+      ],
+      "@t-login": [
+        "templates/login/login"
+      ],
+      "@v-base": [
+        "views/base/base"
+      ],
+      "@v-login": [
+        "views/login/login"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "jspm_packages"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}

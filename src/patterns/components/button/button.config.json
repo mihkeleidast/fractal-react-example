@@ -1,0 +1,13 @@
+{
+  "context": {
+    "text": "lorem ipsum"
+  },
+  "variants": [
+    {
+      "name": "Anchor button",
+      "context": {
+        "url": "https://play.ee/"
+      }
+    }
+  ]
+}
